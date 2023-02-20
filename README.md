@@ -1,3 +1,3 @@
 # python-django-college
-I made college website in python django framework.
+College website in python django framework.
 
