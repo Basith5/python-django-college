@@ -1,0 +1,162 @@
+.logo{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.jmc_logo{
+    height: 100px;
+    margin-left: 150px;
+}
+.naac_logo{
+    height: 100px;
+    margin-right: 150px;
+}
+.div_link{
+    background-color: rgb(220, 0, 0);
+    height: 28px;
+}
+.linker{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+.linker_1{
+    font-size: 15px;
+    padding-right: 30px;
+}
+.hyper_1{
+    color: white;
+    text-decoration: none;
+}
+.hyper_1:hover{
+    color: yellow;
+}
+.about_jmc{
+    height: 620px;
+    background-color: aliceblue;
+}
+.title1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+.jmcol{
+    color: rgb(220, 0, 0);
+}
+.about_jmc2{
+    display: flex;
+    padding: 20px;
+}
+.para1{
+    text-align: justify;
+    width: 70%;
+    font-size: 20px;
+    padding-right: 30px;
+}
+.image2{
+    display: flex;
+    padding: 20px;
+}
+.charge{
+    width: 30%;
+    height: 80px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    height: 500px;
+    background-color: #1e3148e6;
+}
+.motto{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.mot{
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dcce29;
+    font-weight: bold;
+    font-size: 40px;
+}
+.mott{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+.vid{
+    width: 50%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video{
+    font-size: 250px;
+}
+.hvid{
+    text-decoration: none;
+}
+.cam{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.book{
+    display: flex;
+    list-style-type: none;
+}
+.cal{
+    padding: 20px;
+    color: white;
+}
+.bi{
+    font-size: 50px;
+}
+.num{
+    color: #dcce29;
+}
+.bott{
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+}
+.imgg{
+    width: 50%;
+}
+.hostal{
+    padding: 10px;
+    height: 400px;
+}
+.alumtext{
+    color: #dcce29;
+    text-align: center;
+    padding-top: 10px;
+}
+.alupa{
+    color: white;
+    padding-left: 25px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-reset{
+    text-decoration: none;
+}
+.text-reset:hover{
+    border-bottom: 2px solid yellow;
+}
+.last{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color:  #0a305fe6;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 0px 25px 0px 25px;
+}

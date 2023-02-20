@@ -1,0 +1,210 @@
+{% extends 'jmc/layouts/main.html' %}
+{% load static %}
+
+{% block content %}
+<div class="logo">
+    <img src="{% static 'images/jmc_logo.png' %}" alt="jmc_logo" class="jmc_logo">
+    <img src="{% static 'images/logo-2.png' %}" alt="naac" class="naac_logo">
+</div>
+{% endblock content %}
+{% block econtent %}
+<div class="div_link">
+<marquee>
+    <ul class="linker">
+        <a href="#" class="hyper_1"><li class="linker_1">JAMAL RESERCH EXCELLANT AWARDS 2022-2023.</li></a>
+        <li class="linker_1" style="color: yellow;"> | </li>
+        <a href="#" class="hyper_1"><li class="linker_1">UGC SPONCERSED ONLINE SHORT TIME COURESE.</li></a>
+        <li class="linker_1" style="color: yellow;"> | </li>
+        <a href="#" class="hyper_1"><li class="linker_1">NATIONAL CONFERENCE ON ADVANCE COMPUTING.</li></a>
+        <li class="linker_1" style="color: yellow;"> | </li>
+        <a href="#" class="hyper_1"><li class="linker_1">END SEMESTER RESULT NOVEMBER 2022.</li></a>
+        <li class="linker_1" style="color: yellow;"> | </li>
+        <a href="#" class="hyper_1"><li class="linker_1">CIRCULAR FRESH FORM.</li></a>
+    </ul>
+</marquee>
+</div>
+<!--slider images-->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner pb-3">
+      <div class="carousel-item active">
+        <img src="{% static 'images/jmc_main1.webp' %}" class="d-block w-100" alt="image-1" height="650px">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/jmc_main2.webp' %}" class="d-block w-100" alt="image-2" height="650px">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/jmc_main3.jpg' %}" class="d-block w-100" alt="image-3" height="650px">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/jmc_main4.webp' %}" class="d-block w-100" alt="image-4" height="650px">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/jmc_main5.webp' %}" class="d-block w-100" alt="image-5" height="650px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--slider images-->
+{% endblock econtent %}
+
+{% block about %}
+<div class="container about_jmc">
+  <h1 class="title1">Welcome to <span class="jmcol">Jamal Mohamed College</span></h1>
+  <div class="about_jmc2">
+    <p class="para1">Jamal Mohamed College, was founded in 1951, an autonomous institution, affiliated to the Bharathidasan University, Tiruchirappalli.
+       The college is administered by the Society of Jamal Mohamed College, is established in a sprawling land area of 87 acres, as a religious minority institution, 
+      with the primary objective of providing higher education to the downtrodden and socially backward sections of the society in general and Muslim minority in particular. 
+      The college is Re-accredited (3rd Cycle) with 'A' grade by NAAC. The college has been identified as the "College with Potential for Excellence" by the UGC. <a href="#">Read More</a></p>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Examinations Result
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">END SEMESTER RESULT 2023</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Schedule of Meetings
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">Even Semester (2022-2023)</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Rank Holders
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">UG & PG Rank Holders</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFour">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Admissions
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">Online Admissions</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingFive">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Condonations
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">Grant Condonations</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSix">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              CIA Calculation
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">CIA Exam Calculation</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingSeven">
+            <button class="accordion-button collapsed bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              Scholarships
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-warning">Scholarships Details</div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+{% endblock about %}
+{% block charge %}
+<div class="image2">
+  <div class="card mb-3" id="charge">
+    <img src="{% static 'images/secretary.jpg' %}" class="card-img-top" alt="secretary" width="30%">
+    <div class="card-body">
+      <h5 class="card-title">DR.A.K. KHAJA NAZEEMUDEEN</h5>
+      <p class="card-text">D.Litt(USA),Secretary & Correspondent</p>
+      <button class="btn btn-primary" type="submit">View Secretary's Messages</button>
+    </div>
+  </div>
+  <div class="card mb-3" id="charge">
+    <img src="{% static 'images/principal.jpg' %}" class="card-img-top" alt="principal" width="30%">
+    <div class="card-body">
+      <h5 class="card-title">HAJEE DR. S. ISMAIL MOHIDEEN</h5>
+      <p class="card-text">Principal</p>
+      <button class="btn btn-primary" type="submit">View Principal's Messages</button>
+    </div>
+  </div>
+</div>
+{% endblock charge %}
+
+{% block total %}
+<div class="total">
+  <div class="motto">
+    <h2 class="mot">OUR MOTTO</h2>
+    <p class="mott">"Show us the Right Path"</p>
+    <div class="data">
+      <ul class="book">
+        <li class="cal">
+          <span class="bi">📚</span>
+          <h1 class="num">80</h1>
+          <p class="ted">PROGRAMMES OFFERED</p>
+        </li>
+        <li class="cal">
+          <span class="bi">📚</span>
+          <h1 class="num">467</h1>
+          <p class="ted">TEACHING FACULTIES</p>
+        </li>
+        <li class="cal">
+          <span class="bi">📚</span>
+          <h1 class="num">11,330</h1>
+          <p class="ted">STUDENTS STRENGTH</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="vid">
+    <a href="#" class="hvid"><span class="video">▶️</span></a>
+    <p class="cam"><span style="color: #dcce29;">CAMPUS</span> TOUR</p></div>
+</div>
+{%  endblock total %}
+
+{% block feed%}
+<div class="bott bg-secondary">
+  <div class="imgg"><img src="{% static 'images/alumini.webp' %}"  class="hostal"></div>
+  <div class="Alumni bg-dark my-5">
+    <h1 class="alumtext">Global Alumni(JAMALIANS)</h1>
+    <p class="alupa">The Alumni Association of Jamal Mohamed College was established in 1963, 
+      with chapters in Chennai, Bangalore, Calicut, Trichy, and Koothanallur Taluk in India and overseas chapters in 
+      Jeddah, UAE, Bahrain, Kuwait, Singapore, Malaysia, USA, Brunei and Qatar have been doing a yeomen service to humanity.</p>
+      <a href="/feedback/" class="btn bg-primary text-white">Send Feedback</a>
+  </div>
+</div>
+{% endblock feed%}

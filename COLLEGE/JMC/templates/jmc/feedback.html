@@ -1,0 +1,52 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jamal Mohamed College</title>
+        <link rel="stylesheet" href="{% static 'css/feedback.css' %}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      </head>
+<body>
+<div class="full">
+    <div class="logo">
+        <img src="{% static 'images/jmc_logo.png' %}" alt="jmc_logo" class="jmc_logo">
+        <img src="{% static 'images/logo-2.png' %}" alt="naac" class="naac_logo">
+    </div>
+    <div class="maino">
+        <form method="post">
+            <div class="formo">
+                <label for="name">NAME : &nbsp;</label>{{form.name}}
+                {%  if form.errors.name %}
+                    <label class="text-danger">{{ form.errors.name }}</label>
+                {%  endif %}
+            </div>
+            <div class="formo">
+                <label for="email">email :  &nbsp;</label> {{form.email}}
+                {%  if form.errors.email %}
+                    <label class="text-danger">{{ form.errors.email }}</label>
+                {%  endif %}
+            </div>
+            <div class="formo">
+                <label for="phone">phone : &nbsp; </label>{{form.phone}}
+                {%  if form.errors.phone %}
+                    <label class="text-danger">{{ form.errors.phone }}</label>
+                {%  endif %}
+            </div>
+            <div class="formo">
+                <label for="feedback">feedback : &nbsp; </label>{{form.feedback}}
+                {%  if form.errors.phone %}
+                    <label class="text-danger">{{ form.errors.phone }}</label>
+                {%  endif %}
+            </div>
+        {% csrf_token %}
+        <input type="submit" value="Send feedback" class="btn bg-primary">
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+    
